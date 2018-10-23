@@ -1,20 +1,22 @@
-# my-component
+# Line Endings Processor
 
-[![Build Status](https://travis-ci.com/keboola/my-component.svg?branch=master)](https://travis-ci.com/keboola/my-component)
+[![Build Status](https://travis-ci.com/keboola/processor-line-endings.svg?branch=master)](https://travis-ci.com/keboola/processor-line-endings)
 
-> Fill in description
+The processor takes a file and converts Windows (CRLF) and Mac (LF) to unix type line endings (CR).
 
 # Usage
 
-> fill in usage instructions
+The processor takes all input files and tables, converts line endings and stores the results as output files or tables.
+This means that binary files will get broken, use after decompressing.
+The processor takes no parameters. Manifest files are copied unchanged.
 
 ## Development
  
 Clone this repository and init the workspace with following command:
 
 ```
-git clone https://github.com/keboola/my-component
-cd my-component
+git clone https://github.com/keboola/processor-line-endings
+cd processor-line-endings
 docker-compose build
 docker-compose run --rm dev composer install --no-scripts
 ```
