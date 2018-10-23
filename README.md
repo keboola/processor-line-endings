@@ -10,8 +10,16 @@ The processor takes all input files and tables, converts line endings and stores
 This means that binary files will get broken, use after decompressing.
 The processor takes no parameters. Manifest files are copied unchanged.
 
+```
+{
+    "definition": {
+        "component": "keboola.processor-line-endings"
+    }
+}
+```
+
 ## Development
- 
+
 Clone this repository and init the workspace with following command:
 
 ```
