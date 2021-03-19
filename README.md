@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/keboola/processor-line-endings.svg?branch=master)](https://travis-ci.com/keboola/processor-line-endings)
 
-The processor takes a file and converts Windows (CRLF) and Mac (LF) to unix type line endings (CR).
+The processor takes a file and converts Windows (CRLF) and Mac (CR) to unix type line endings (LF).
 
 # Usage
 
